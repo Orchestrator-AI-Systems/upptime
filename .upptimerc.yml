@@ -21,8 +21,9 @@ status-website:
   # (fixes the project-page /client/ 404 issue).
   cname: status.orchestrator.ca
   name: Orchestrator AI Systems
+  logoUrl: https://orchestrator.ca/images/orchestrator-logo.svg
   introTitle: "Orchestrator AI Systems — Service Status"
-  introMessage: "Live availability and incident history for Orchestrator products."
+  introMessage: "Live availability and incident history for Orchestrator products. Subscribe to incident updates or check current uptime across our products."
   navbar:
     - title: Status
       href: /
