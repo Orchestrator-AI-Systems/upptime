@@ -17,9 +17,9 @@ sites:
 
 # ---- Public status website ----
 status-website:
-  # Optional custom domain. Leave commented to use
-  # https://orchestrator-ai-systems.github.io/upptime
-  # cname: status.orchestrator.ca
+  # Custom domain — serves the site from root so all assets resolve
+  # (fixes the project-page /client/ 404 issue).
+  cname: status.orchestrator.ca
   name: Orchestrator AI Systems
   introTitle: "Orchestrator AI Systems — Service Status"
   introMessage: "Live availability and incident history for Orchestrator products."
